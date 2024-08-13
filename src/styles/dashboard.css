@@ -1,0 +1,17 @@
+.characters__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.character__item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
