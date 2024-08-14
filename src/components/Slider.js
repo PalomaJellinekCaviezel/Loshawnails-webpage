@@ -1,5 +1,5 @@
 // Slider.js
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Slider = ({ images }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -17,6 +17,25 @@ const Slider = ({ images }) => {
 
     const openModal = () => setIsModalOpen(true);
     const closeModal = () => setIsModalOpen(false);
+
+    // Listener para las teclas left y right
+    useEffect(() => {
+        const handleKeyDown = (event) => {
+            if (event.key === 'ArrowRight') {
+                nextSlide();
+            } else if (event.key === 'ArrowLeft') {
+                prevSlide();
+            } else if (event.key === 'Escape') {
+                closeModal();
+            }
+        };
+
+        window.addEventListener('keydown', handleKeyDown);
+
+        return () => {
+            window.removeEventListener('keydown', handleKeyDown);
+        };
+    }, []);
 
     return (
         <div className="relative w-full max-w-3xl mx-auto h-80 md:h-96 overflow-hidden rounded-xl shadow-xl">
