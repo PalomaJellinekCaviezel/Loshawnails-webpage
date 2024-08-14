@@ -4,7 +4,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <header className="bg-customBlue min-h-16 flex items-center justify-between px-4 py-2">
+        <header className="bg-customBlue min-h-16 flex items-center justify-between px-4 py-2 shadow-md">
             <div>
                 <img src=".\LoshawnailsLogo.png" alt="Logo" className="h-10 w-auto" />  {/* Ruta y tamaño de la imagen */}
             </div>
