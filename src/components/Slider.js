@@ -77,7 +77,7 @@ const Slider = ({ images }) => {
             </button>
             {/* Modal */}
             {isModalOpen && (
-                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 z-50">
+                <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
                     <div className="relative max-w-full sm:max-w-2xl md:max-w-3xl mx-4 sm:mx-auto bg-white rounded-lg overflow-hidden shadow-lg">
                         <img
                             src={images[currentIndex]}

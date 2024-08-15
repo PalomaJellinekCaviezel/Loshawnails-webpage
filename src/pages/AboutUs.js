@@ -14,13 +14,14 @@ const AboutUs = () => {
                 }}
             >
                 <div className="bg-notBlack bg-opacity-50 p-6 sm:p-10 rounded-lg max-w-lg sm:max-w-3xl shadow-lg mx-4 sm:mx-auto">
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl text-hoverPink font-bold mb-6">
-                        Somos Loshawnails
+                    <h1 className="text-2xl sm:text-3xl md:text-4xl text-hoverPink font-bold mb-4">
+                        Somos Loshawnails home studio
                     </h1>
-                    <p className="text-lg sm:text-xl md:text-2xl text-hoverPink leading-relaxed">
-                        Comprometidas con la belleza y el cuidado de tus uñas.
+                    <p className="text-base sm:text-lg md:text-xl text-hoverPink leading-relaxed">
+                        Comprometidas con la belleza y el cuidado de tus uñas hace más de 4 años.
                     </p>
                 </div>
+
             </section>
             <Footer />
         </div>
