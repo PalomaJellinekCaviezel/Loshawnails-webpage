@@ -8,7 +8,7 @@ module.exports = {
       colors: {
         customBlue: '#AEE2FF',
         hoverPink: '#FFEFEF',
-        notWhite: '#fafafa',
+        notWhite: '#fefaf9',
         pinkiest: '#F0A8D0',
         notBlack: '#1b1b1b',
       },
