@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className="bg-customBlue text-notBlack py-4 px-6 shadow-inner">
             <div className="max-w-3xl mx-auto flex justify-between items-center">
                 {/* Contenedor del texto */}
-                <p className="text-xs text-left">
+                <p className="text-xs p-1 text-left">
                     &copy; 2024 Loshawnails. <br /> Página creada por Paloma Caviezel. Todos los derechos reservados.
                 </p>
 
