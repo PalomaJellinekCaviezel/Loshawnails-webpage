@@ -33,7 +33,6 @@ const Services = () => {
             description: 'Uñas listas para aplicar con diseños exclusivos.',
             imgSrc: image[14],
             photos: [image[11], image[12], image[13], image[14], image[15], image[16], image[17]],
-
         }
     ];
 
@@ -48,21 +47,21 @@ const Services = () => {
     };
 
     return (
-        <div className="flex flex-col min-h-screen">
-            <Header />
-            <section className="flex-1 bg-notWhite p-6">
-                <h1 className="text-4xl font-bold text-center mb-8">Nuestros Servicios</h1>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                    {services.map((service, index) => (
-                        <ServiceCard
-                            key={index}
-                            service={service}
-                            onClick={() => openModal(index)}
-                        />
-                    ))}
+        <div className="flex flex-col min-h-screen ">
+            <section id='services' className="flex-1 bg-notWhite pt-10 p-4 md:p-6 flex items-center justify-center">
+                <div className="w-full max-w-screen-lg">
+                    <h1 className="text-3xl font-bold text-pinkiest text-center mb-8">Nuestros Servicios</h1>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                        {services.map((service, index) => (
+                            <ServiceCard
+                                key={index}
+                                service={service}
+                                onClick={() => openModal(index)}
+                            />
+                        ))}
+                    </div>
                 </div>
             </section>
-            <Footer />
             <Modal isOpen={isModalOpen} service={activeService} onClose={closeModal} />
         </div>
     );

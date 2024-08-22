@@ -6,7 +6,7 @@ const Modal = ({ isOpen, service, onClose }) => {
 
     return (
         <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50">
-            <div className="bg-notWhite rounded-lg shadow-lg p-6 max-w-3xl w-full relative mx-4 sm:mx-8 md:mx-auto max-h-[90vh] overflow-auto">
+            <div className="bg-hoverPink rounded-lg shadow-lg p-6 max-w-3xl w-full relative mx-4 sm:mx-8 md:mx-auto max-h-[90vh] overflow-auto">
                 <button
                     className="absolute top-2 right-2 text-pinkiest -500 hover:text-notBlack -800"
                     onClick={onClose}

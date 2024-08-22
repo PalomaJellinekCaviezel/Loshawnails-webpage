@@ -4,25 +4,13 @@ import { FaWhatsapp, FaInstagram, FaPinterest } from 'react-icons/fa';
 
 const Footer = () => {
     return (
-        <footer className="bg-customBlue text-notBlack py-4 px-6 shadow-inner">
-            <div className="max-w-3xl mx-auto flex justify-between items-center">
+        <footer className="bg-customBlue text-notBlack py-2 px-4 shadow-inner">
+            <div className="w-full mx-auto flex justify-between items-center">
                 {/* Contenedor del texto */}
-                <p className="text-xs p-1 text-left">
-                    &copy; 2024 Loshawnails. <br /> Página creada por Paloma Caviezel. Todos los derechos reservados.
+                <p className="text-xxs text-center mx-auto">
+                    &copy; 2024 Loshawnails <br />
+                    Página creada por palomacaviezel7@gmail.com
                 </p>
-
-                {/* Contenedor de los íconos de redes sociales */}
-                <div className="flex gap-4">
-                    <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="text-notBlack hover:text-hoverPink">
-                        <FaWhatsapp className="w-6 h-6" />
-                    </a>
-                    <a href="https://www.instagram.com/tuperfil" target="_blank" rel="noopener noreferrer" className="text-notBlack hover:text-hoverPink">
-                        <FaInstagram className="w-6 h-6" />
-                    </a>
-                    <a href="https://www.pinterest.com/tuperfil" target="_blank" rel="noopener noreferrer" className="text-notBlack hover:text-hoverPink">
-                        <FaPinterest className="w-6 h-6" />
-                    </a>
-                </div>
             </div>
         </footer>
     );

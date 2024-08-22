@@ -15,6 +15,9 @@ module.exports = {
       height: {
         '50px': '50px',
       },
+      fontSize: {
+        'xxs': '0.63rem', // Ajusta el tamaño según tus necesidades
+      },
     },
   },
   plugins: [],

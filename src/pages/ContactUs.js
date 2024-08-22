@@ -3,14 +3,12 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Map from "../components/Map";
 
-const Location = () => {
+const ContactUs = () => {
     return (
-        <div className="flex flex-col min-h-screen">
-            <Header />
+        <div id="contact-us" className="flex flex-col min-h-screen">
             <Map />
-            <Footer />
         </div>
     );
 };
 
-export default Location; 
+export default ContactUs; 

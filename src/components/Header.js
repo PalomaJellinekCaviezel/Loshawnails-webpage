@@ -14,7 +14,7 @@ const Header = () => {
     };
 
     return (
-        <header className="bg-customBlue min-h-16 flex items-center justify-between px-4 py-2 shadow-md relative z-50">
+        <header className="fixed top-0 left-0 w-full bg-customBlue flex items-center justify-between px-4 py-4 shadow-md relative z-50">
             <Link to="/" onClick={closeMenu}>
                 <img src={logo} alt="Logo Loshawnails" className="h-10 w-auto" />
             </Link>
@@ -33,10 +33,9 @@ const Header = () => {
                 className={`fixed inset-0 bg-customBlue flex flex-col items-center justify-center transition-transform transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} md:static md:translate-x-0 md:flex md:flex-row md:bg-transparent md:justify-end`}
             >
                 <ul className="flex flex-col md:flex-row gap-4 md:gap-6 p-4 md:p-0">
-                    <li><a href="/aboutUs" onClick={closeMenu} className="text-notBlack no-underline py-2 px-2 block text-center hover:bg-hoverPink hover:text-pinkiest hover:rounded-lg">Sobre nosotras</a></li>
-                    <li><a href="/services" onClick={closeMenu} className="text-notBlack no-underline py-2 px-2 block text-center hover:bg-hoverPink hover:text-pinkiest hover:rounded-lg">Nuestros servicios</a></li>
-                    <li><a href="/location" onClick={closeMenu} className="text-notBlack no-underline py-2 px-2 block text-center hover:bg-hoverPink hover:text-pinkiest hover:rounded-lg">Ubicación</a></li>
-                    <li><a href="/contact" onClick={closeMenu} className="text-notBlack no-underline py-2 px-2 block text-center hover:bg-hoverPink hover:text-pinkiest hover:rounded-lg">Contáctanos</a></li>
+                    <li><a href="#services" onClick={closeMenu} className="text-notBlack no-underline py-2 px-2 block text-center hover:bg-hoverPink hover:text-pinkiest hover:rounded-lg">Nuestros servicios</a></li>
+                    <li><a href="#contact-us" onClick={closeMenu} className="text-notBlack no-underline py-2 px-2 block text-center hover:bg-hoverPink hover:text-pinkiest hover:rounded-lg">Contactanos</a></li>
+                    <li><a href="#appointment" onClick={closeMenu} className="text-notBlack no-underline py-2 px-2 block text-center hover:bg-hoverPink hover:text-pinkiest hover:rounded-lg">Agenda tu cita</a></li>
                 </ul>
             </nav>
         </header>

@@ -1,4 +1,4 @@
-// Main.js
+
 import React from 'react';
 import Slider from './Slider';
 import images from '../img/imgList';
