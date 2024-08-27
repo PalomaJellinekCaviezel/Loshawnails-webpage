@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
 import ServiceCard from '../components/ServiceCard';
 import Modal from '../components/Modal';
 import image from '../img/imgList';

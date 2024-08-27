@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { FaWhatsapp, FaInstagram, FaPinterest } from 'react-icons/fa';
-
 const Footer = () => {
     return (
         <footer className="bg-customBlue text-notBlack py-2 px-4 shadow-inner">
