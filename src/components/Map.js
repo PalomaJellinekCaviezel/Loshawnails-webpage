@@ -29,6 +29,7 @@ const Map = () => {
                     {/* Iframe del mapa */}
                     <div className="lg:w-1/2">
                         <iframe
+                            title="loshawnailsAddress"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.814772997247!2d-58.660583525661856!3d-34.4822228510896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca344a5fb04af%3A0xf709b1921be3540f!2sCHC%2C%20Gral.%20Lavalleja%202579%2C%20B1618%20El%20Talar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1723848465537!5m2!1ses!2sar"
                             width="100%"
                             height="300"
