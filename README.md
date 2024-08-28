@@ -2,6 +2,10 @@
 
 This is the website of a manicure business where different services are offered from a catalog view, and then the potential customer is invited to contact through social networks or whatsapp to get an appointment.
 
+## What I learned
+
+This project was created with React js where I learned to split the user interface into reusable components and implement navigation between different views of the application using React Router, and Tailwind CSS to design and style the application with a system of utility classes, promoting a consistent and responsive design.
+
 ## The challenge
 
 Users should be able to:
